@@ -22,7 +22,7 @@
                     //alert("You have selected the country - " + selectedCity);                    
                     
                     var my_city = selectedCity + ',australia';
-                    var my_key = 'XXXXXXXXXXXXX';                    
+                    var my_key = 'XXXXXXXXXXXXX';    //replace here your api key from world weather online                
                     var uri="http://api.worldweatheronline.com/premium/v1/weather.ashx?q="+my_city+"&key="+my_key+"&format=json&date=today"+"&includeLocation=yes";
                     // uri-encode it to prevent errors :
                     uri=encodeURI(uri); 
